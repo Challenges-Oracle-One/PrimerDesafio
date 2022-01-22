@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto Encriptado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  <h1 class="title">CÓDIGO SECRETO</h1>
+
+  <main class="main container" >
+    <section >
+  
+        <h2 id="">Mensaje:</h2>
+        <label for="input-texto">Solo letras minúsculas, sin acento*</label>
+        <input class="input" type="text" name="input-texto" id="mensaje" placeholder="Ingrese el texto aqui">
+        <br>
+        <input class="boton" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="boton" type="submit" value="Desencriptar" id="btn-desencriptar"> 
+    
+    </section>
+  
+    <section >
+      <h2 id="">Mensaje obtenido:</h2>
+      <input class="input" type="text" id="msg"></input>
+      <br>
+      <!-- Opcion copiar -->
+      <button class="boton" onclick="copiarMensaje();">Copiar</button>
+   
+    </section>
+
+  </main>
+<footer class="footer">
+  Jessica Moncada © 2022
+</footer>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
