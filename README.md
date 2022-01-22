@@ -1,2 +1,3 @@
-# PrimerDesafio
-Se añade primer desafio, texto encriptado
+# PrimerDesafio Oracle One
+Se añade primer desafio, el cual se basa en realizar un encriptador de texto.
+
